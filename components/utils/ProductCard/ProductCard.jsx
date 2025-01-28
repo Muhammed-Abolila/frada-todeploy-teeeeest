@@ -80,7 +80,7 @@ export default function ProductCard({ product }) {
               height={1000}
               alt={product.Name}
               className="mx-auto"
-              style={{ width: "100%", aspectRatio: "13/12" }}
+              // style={{ width: "100%", aspectRatio: "13/12" }}
             />
           </div>
         </div>

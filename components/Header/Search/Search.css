@@ -28,7 +28,7 @@
 }
 .search .search-cards-container .product-card .product-card-img img {
   object-fit: contain;
-  aspect-ratio: 9 / 9;
+  /* aspect-ratio: 9 / 9; */
 }
 .search .search-cards-container .product-card .product-card-img .add-card {
   padding: 5px 0px;

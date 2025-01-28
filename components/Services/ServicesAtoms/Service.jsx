@@ -16,7 +16,7 @@ export default function Service() {
     {
       img: supportImage,
       title: "خدمة عملاء",
-      p: "24 ساعة / 7 ايام",
+      p: "24 ساعة/ 7 ايام",
     },
   ];
 

@@ -14,7 +14,7 @@
 }
 .collections-container .collection-card .image-container {
   width: 100%;
-  aspect-ratio: 13/12;
+  /* aspect-ratio: 13/12; */
 }
 .collections-container .collection-card .image-container img {
   width: 100%;
@@ -46,7 +46,7 @@
   .collection-products-image
   .product-sub {
   width: calc(100% / 6);
-  aspect-ratio: 1 / 1;
+  /* aspect-ratio: 1 / 1; */
   border: 1px solid #000;
   cursor: pointer;
   border-radius: 4px;
