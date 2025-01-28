@@ -2,44 +2,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* :root{
-  --firstColor:#000;
-  --secondColor:#f2f2f2;
-}
-main {
-  overflow-x: clip;
-}
-*,
-::after,
-::before {
-  box-sizing: border-box !important;
-}
-html {
-  scroll-behavior: smooth;
-}
-body{
-  overflow-x:hidden
-}
-body::-webkit-scrollbar {
-  width: 5px;
-  height: 8px;
-  background-color: #e0e0e0;
-}
-body::-webkit-scrollbar-thumb {
-  background: #000;
-}
-.collection-comp .collection-details .carousel .carousel-indicators,
-.collection-comp .collection-details .carousel .carousel-control-prev,
-.collection-comp .collection-details .carousel .carousel-control-next{
-  display: none;
-}
-.cards-holder {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
 /* Button */
 .btn {
   background-color: #000;
@@ -156,7 +118,6 @@ a {
 .carousel-2 .slick-dots {
   bottom: 15px !important;
 }
-/*  */
 
 .carousel-1 .slick-initialized .slick-slide {
   margin-block: 0px !important;

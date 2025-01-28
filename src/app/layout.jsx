@@ -1,4 +1,5 @@
 "use client";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "react-toastify/dist/ReactToastify.css";
@@ -12,14 +13,14 @@ import { Cairo } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import { Store } from "./Redux/Store";
 import "../../public/icons/style.css";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 const cairo = Cairo({
   weight: ["200", "300", "400", "500", "600", "700", "800", "900", "1000"],
   subsets: ["arabic"],
 });
 
 export default function RootLayout({ children }) {
-  const pathName = usePathname();
+  const pathName = usePathname()
   return (
     <html lang="ar">
       <head>
@@ -94,6 +95,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={cairo.className} suppressHydrationWarning={true}>
         <Provider store={Store}>
+          {/* Conditionally render Header, Footer, and FixedFooter based on pathname */}
           {!pathName?.includes("dashboard") ? <Header /> : null}
 
           {children}
@@ -101,7 +103,9 @@ export default function RootLayout({ children }) {
           <WhatsApp />
 
           {!pathName?.includes("dashboard") ? <Footer /> : null}
-          {!pathName?.includes("dashboard") ? <FixedFooter /> : null}
+          {!pathName?.includes("dashboard") ? (
+            <FixedFooter />
+          ) : null}
         </Provider>
         <ToastContainer />
       </body>

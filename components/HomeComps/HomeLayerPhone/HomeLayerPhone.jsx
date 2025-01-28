@@ -1,7 +1,7 @@
 "use client";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
-import cartImage from "../../../public/Images/cart.png";
-import logoImage from "../../../public/Images/Logos/logo-white.svg";
+import cartImage from "../../../public/images/cart.png";
+import logoImage from "../../../public/images/Logos/logo-white.svg";
 import "./HomeLayerPhone.css";
 import Image from "next/image";
 import { useState } from "react";

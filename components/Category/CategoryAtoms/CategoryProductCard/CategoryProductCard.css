@@ -16,7 +16,7 @@
 .card-product .card-img-top {
   transition: transform 0.3s ease-in-out;
   width: 100%;
-  /* aspect-ratio: 13/12; */
+  aspect-ratio: 13/12;
 }
 .card-product:hover .card-img-top {
   transform: scale(1.05);

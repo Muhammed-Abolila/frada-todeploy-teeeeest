@@ -2,6 +2,8 @@
 import Slider from "react-slick";
 import HeroCard from "./HeroSectionAtoms/HeroCard/HeroCard";
 import Services from "../../../components/Services/Services";
+import { MdNavigateNext } from "react-icons/md";
+import { GrFormPrevious } from "react-icons/gr";
 const HeroSection = ({ bannerData }) => {
   let settings = {
     dots: false,

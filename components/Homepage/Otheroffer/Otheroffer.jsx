@@ -23,6 +23,7 @@ export default function Otheroffer({ allProducts, addToCard }) {
     }
   }, [otherofferRef]);
   let {scrollY}=useScroll();
+  // let translateY=useTransform(scrollY,[sectionTop-number,sectionTop-(number-70)],[200,0])
   let translateY=useTransform(scrollY,[sectionTop-number,sectionTop-(number-70)],[300,0])
   let opacity=useTransform(scrollY,[sectionTop-number,sectionTop-(number-70)],[0,1]);
   return (

@@ -12,7 +12,7 @@
 }
 .product-card .product-card-img img {
   object-fit: fill;
-  /* aspect-ratio: 9 / 10 */
+  aspect-ratio: 9 / 10
   }
 
 .product-card .product-card-img .add-card{

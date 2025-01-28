@@ -1,6 +1,6 @@
 "use client";
 import Slider from "react-slick";
-import imgTest from "../../../public/Images/test.png";
+import imgTest from "../../../public/images/test.png";
 import HomeCategoriesCard from "../HomeAtoms/HomeCategoriesCard/HomeCategoriesCard";
 const CategorySlider = ({ homeData }) => {
   let categoryData = [

@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import imgExpired from "../../../public/Images/expired.svg";
+import imgExpired from "../../../public/images/expired.svg";
 export default function ContTimeDown({ offer }) {
   const [timeLeft, setTimeLeft] = useState({});
   useEffect(() => {

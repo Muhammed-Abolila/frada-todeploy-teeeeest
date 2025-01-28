@@ -1,6 +1,6 @@
-import refundImage from "../../../public/Images/refund.svg"
-import shippingImage from "../../../public/Images/shipping.svg"
-import supportImage from "../../../public/Images/support.svg"
+import refundImage from "../../../public/images/refund.svg"
+import shippingImage from "../../../public/images/shipping.svg"
+import supportImage from "../../../public/images/support.svg"
 export default function Service() {
   let data = [
     {
@@ -16,7 +16,7 @@ export default function Service() {
     {
       img: supportImage,
       title: "خدمة عملاء",
-      p: "24 ساعة/ 7 ايام",
+      p: "24 ساعة / 7 ايام",
     },
   ];
 
