@@ -1,0 +1,23 @@
+/* coupon */
+.cart-page .cart-content .right .coupon {
+    margin: 15px 0px;
+  }
+  .cart-page .cart-content .right .coupon .input-group .btn {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    transition: all 0.3s ease-in-out;
+  }
+  .cart-page .cart-content .right .coupon .input-group .btn:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .cart-page .cart-content .right .coupon .input-group input {
+    text-align: end;
+    border: 1px solid #e0e0e0;
+  }
+  .cart-page .cart-content .right .coupon .input-group input:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  /* End Coupon */

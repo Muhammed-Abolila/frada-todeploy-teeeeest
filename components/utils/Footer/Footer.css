@@ -1,0 +1,220 @@
+/* Start Global Style */
+footer{
+    padding-bottom: 40px !important;
+    margin-top:30px !important;
+}
+footer h6 {
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  footer ul{
+    list-style: none;
+  }
+  footer ul li a {
+    text-decoration: none;
+    color: unset;
+  }
+  footer ul li p {
+    font-size: 15px;
+  }
+  /* End Global Style */
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  footer .top {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 25px;
+    border-bottom: 0.0625rem solid #e0e0e0;
+  }
+  footer .top .content {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+    text-align: end;
+    gap: 60px;
+    margin-top: 40px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    font-size: 14px;
+  }
+  footer .top .content p {
+    margin: 15px 0px;
+  }
+  footer .top .content p.tel a {
+    text-decoration: none;
+    color: unset;
+  }
+  footer .top .content p.tel span {
+    font-size: 11px;
+    margin-left: 7px;
+  }
+  footer .top .image-container {
+    width: 50%;
+  }
+  footer .top .image-container img {
+    width: 100%;
+    height: 100%;
+  }
+  footer .top .title {
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  footer .rights {
+    margin-top: 15px;
+    text-align: center;
+    font-size:16px;
+    opacity:1
+  }
+  footer .footer-bottom {
+    width: 90%;
+    margin: auto;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    text-align: end;
+    
+  }
+  footer .footer-bottom ul {
+    margin-top: 15px;
+  }
+  footer .footer-bottom ul li {
+    margin: 8px 0px;
+  }
+  
+  footer .accordion {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 95%;
+    margin: auto;
+    display: none;
+  }
+  footer .accordion-item {
+    border: none;
+    background-color: #000;
+  }
+  footer .accordion-item .accordion-header{
+    background-color: #000;
+    border-top:0.0625rem solid #e0e0e0;
+    margin-top: 10px;
+  }
+  footer .accordion-item .accordion-header button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 10px;
+    padding-bottom: 0px;
+    direction: rtl;
+    box-shadow: none;
+  }
+  footer .accordion-item .accordion-header button::after {
+    content: "+";
+    background-image: none;
+    margin-right: auto;
+    margin-left: 0px;
+    font-size: 25px;
+    height: auto;
+    width: auto;
+  }
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(135deg) !important;
+  }
+  footer .accordion-item .accordion-body {
+    padding: 0px 10px;
+  }
+  footer .accordion-item .accordion-body ul {
+    text-align: end;
+  }
+  footer .accordion-item .accordion-body ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+  }
+  footer .small-social-links{
+    display: none;
+  }
+  .footer-social-links{
+    text-align: end;
+    padding-right: 13px;
+  }
+  .footer-social-links ul {
+    margin: auto;
+    margin-top:15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 13px;
+  }
+  .footer-social-links ul li {
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  .footer-social-links ul li span {
+    padding: 10px;
+    display: block;
+    font-size: 16px;
+    color: #000;
+  }
+  @media screen and (max-width: 1160px) {
+    footer .top {
+      flex-direction: column;
+      gap: 0px;
+    }
+    footer .top .image-container {
+      width: 100%;
+      order: 1;
+    }
+    footer .top .content {
+      order: 2;
+      flex-direction: column;
+      width: 98%;
+      align-items: end;
+      text-align: end;
+      gap: 20px;
+      margin: 30px 0px;
+    }
+    footer .top .content .right {
+      width:100%;
+      order: 2;
+    }
+    footer .top .content .left {
+      width:100%;
+      order: 1;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    footer .footer-bottom {
+      width: 100%;
+    }
+    footer {
+      padding-bottom: 60px;
+    }
+    footer .rights {
+      padding-top: 30px;
+      padding-bottom: 60px;
+    }
+  }
+  @media screen and (max-width: 840px) {
+    footer .top {
+      border:none
+    }
+    footer .footer-bottom {
+      display: none;
+    }
+    footer .accordion {
+      display: block;
+    }
+    footer .small-social-links{
+      display: block;
+      padding-top: 10px;
+      padding-right: 30px;
+    }
+  }
+  

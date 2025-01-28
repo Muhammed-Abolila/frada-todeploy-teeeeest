@@ -1,0 +1,126 @@
+.friend-profile-container .add-friend-container,
+.friend-profile-container .edit-friend-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999999;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.add-friend-container .add-friend-content,
+.edit-friend-container .edit-friend-content {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px 10px 15px 10px;
+}
+
+.add-friend-container .add-friend-content {
+
+    position: relative;
+}
+
+.add-friend-container .add-friend-content h5 {
+
+    background-color: #D27A51;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 12px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+
+.add-friend-container .add-friend-content .form-section,
+.edit-friend-container .edit-friend-content .form-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px 12px;
+  margin-top: 30px;
+}
+.add-friend-container .add-friend-content .form-section .friend-info,
+.edit-friend-container .edit-friend-content .form-section .friend-info {
+  width: 49%;
+}
+.add-friend-container .add-friend-content .form-section .friend-info label,
+.edit-friend-container .edit-friend-content .form-section .friend-info label {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: end;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.add-friend-container .add-friend-content .form-section .friend-info input,
+.add-friend-container .add-friend-content .form-section .friend-info select,
+.edit-friend-container .edit-friend-content .form-section .friend-info input,
+.edit-friend-container .edit-friend-content .form-section .friend-info select {
+  outline: none;
+  height: 30px;
+  direction: rtl;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #05060538;
+}
+.add-friend-container .add-friend-content .form-section .friend-info select,
+.edit-friend-container .edit-friend-content .form-section .friend-info select {
+  height: 25px;
+}
+
+.add-friend-container .add-friend-content .form-section .btns,
+.edit-friend-container .edit-friend-content .form-section .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  width: 100%;
+}
+.add-friend-container .add-friend-content .btns button,
+.edit-friend-container .edit-friend-content .btns button {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  width: 100px;
+  padding: 6px 0px;
+  border-radius: 5px;
+}
+.add-friend-container .add-friend-content .btns button:hover,
+.edit-friend-container .edit-friend-content .btns button:hover {
+  background-color: #fff;
+  color: #000;
+}
+@media screen and (max-width: 1236px) {
+  .add-friend-container .add-friend-content .form-section .friend-info,
+  .edit-friend-container .edit-friend-content .form-section .friend-info {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .add-friend-container .add-friend-content,
+  .edit-friend-container .edit-friend-content {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .add-friend-container .add-friend-content,
+  .edit-friend-container .edit-friend-content {
+    width: 95%;
+  }
+  .add-friend-container .add-friend-content .form-section .friend-info,
+  .edit-friend-container .edit-friend-content .form-section .friend-info {
+    width: 95%;
+  }
+}

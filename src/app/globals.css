@@ -1,0 +1,286 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* :root{
+  --firstColor:#000;
+  --secondColor:#f2f2f2;
+}
+main {
+  overflow-x: clip;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x:hidden
+}
+body::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #e0e0e0;
+}
+body::-webkit-scrollbar-thumb {
+  background: #000;
+}
+.collection-comp .collection-details .carousel .carousel-indicators,
+.collection-comp .collection-details .carousel .carousel-control-prev,
+.collection-comp .collection-details .carousel .carousel-control-next{
+  display: none;
+}
+.cards-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* Button */
+.btn {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  font-size: 14px;
+  padding: 5px 20px;
+  /* margin-top: 10px; */
+  border-radius: 5px;
+  min-width: 110px;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+/* input error */
+.input-error {
+  color: white;
+  font-size: 13px !important;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 0px 0;
+  border: 1px solid red;
+  background-color: #e06666;
+  padding: 10px 0px;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.slick-slider .slider-style {
+  padding: 0px 10px;
+}
+@media screen and (max-width: 700px) {
+  .slick-slider .slider-style {
+    padding: 0px 5px;
+  }
+}
+
+*/ * {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 440px) {
+  .home-2 {
+    display: none !important;
+  }
+}
+.carousel-2 .slick-track {
+  padding-block: 20px !important;
+}
+/* .slick-arrow {
+  background: #000;
+  font-size: 50px;
+  /* display: none !important; */
+
+:root {
+  --secondColor: #f2f2f2;
+  --blackColor: #000;
+  --whiteColor: #fff;
+  --mainColor: #d27a51;
+}
+html body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 5px !important;
+  height: 8px !important;
+  background-color: #e0e0e0 !important;
+}
+body::-webkit-scrollbar-thumb {
+  background: #000 !important;
+}
+a {
+  text-decoration: none !important;
+  color: var(--blackColor);
+}
+.not-found-container {
+  height: 85vh;
+  width: 100%;
+  position: relative;
+}
+.not-found-container .home-btn {
+  background-color: var(--mainColor);
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border: 1px solid var(--mainColor);
+  border-radius: 8px;
+  color: var(--whiteColor);
+}
+
+.carousel-2 .card {
+  height: 150px !important;
+  width: 100%;
+}
+.carousel-2 .slick-track {
+  padding-block: 66px !important;
+}
+
+.carousel-2 .slick-dots {
+  bottom: 15px !important;
+}
+/*  */
+
+.carousel-1 .slick-initialized .slick-slide {
+  margin-block: 0px !important;
+  padding: 0px !important;
+}
+.slick-initialized .slick-slide {
+  margin-block: 10px !important;
+}
+
+@media (min-width: 1500px) {
+  .lg\:p-20 {
+    padding-inline: 20rem !important;
+  }
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 25px !important;
+}
+
+.carousel-2 .slick-slide {
+  padding-inline: 10px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 13px !important;
+}
+
+@media (max-width: 1023px) {
+  .cards.slick-slider .slick-track {
+    padding-block: 0px !important;
+  }
+  .carousel-2 {
+    background: white !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin-top: 0px !important;
+    margin-bottom: 40px !important;
+  }
+  .carousel-2 .card {
+    background: black !important;
+  }
+
+  .carousel-2 .shopping {
+    background: white !important;
+    color: black !important;
+  }
+  .carousel-2 .btn-container {
+    justify-content: flex-end !important;
+  }
+
+  .carousel-2 .slick-dots {
+    bottom: -40px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel-2 .card {
+    min-height: 210px !important;
+  }
+}
+.slick-list {
+  width: 100% !important;
+}
+.loyality div[tabindex="-1"] div:nth-child(1) {
+  width: 210px !important;
+  padding: 15px !important;
+  display: flex;
+  justify-content: center;
+}
+.loyality div[tabindex="-1"] {
+  display: flex !important;
+  justify-content: center !important;
+}
+.loyality div[tabindex="-1"]:nth-child(4) div:nth-child(1) img:nth-child(1) {
+  width: 50px !important;
+}
+
+@media only screen and (max-width: 400px) {
+  .loyality div[tabindex="-1"] div:nth-child(1) {
+    width: 127.62px !important;
+    height: 170px !important;
+    font-size: 14px !important;
+  }
+  .slick-track {
+    margin-bottom: 80px !important;
+  }
+  .loyality div[tabindex="-1"] div:nth-child(1) img:nth-child(1) {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .loyality div[tabindex="-1"] div:nth-child(1) {
+    width: 200px !important;
+    height: 170px !important;
+    font-size: 14px !important;
+  }
+}
+
+.slick-prev {
+  left: 0px !important;
+  color: #000 !important;
+  fill: black !important;
+  z-index: 99;
+  font-size: 40px;
+  width: 25px;
+  height: 25px;
+}
+.slick-next {
+  right: 0px !important;
+  color: #000 !important;
+  fill: black !important;
+  z-index: 99;
+  font-size: 40px;
+  width: 25px;
+  height: 25px;
+}
+.carousel-3 .slick-prev {
+  left: -25px !important;
+}
+.carousel-3 .slick-next {
+  right: -25px !important;
+}
+.carousel-1 .slick-prev,
+.carousel-1 .slick-next {
+  display: none !important;
+}

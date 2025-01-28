@@ -1,0 +1,51 @@
+.google-apple-container {
+  margin-top: 35px;
+}
+.google-apple-container .google-apple-title {
+  font-size: 0.7rem;
+  font-weight: 400;
+  margin-bottom: 7px;
+  position: relative;
+}
+.google-apple-container .google-apple-title:before,
+.google-apple-container .google-apple-title:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 66%;
+  right: 0;
+  height: 1px;
+  background-color: #000;
+  opacity: 0.5;
+}
+.google-apple-container .google-apple-title:after {
+  left: 0;
+  right: 66%;
+}
+.google-apple-container .google-apple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.google-apple-container .google-apple img {
+  height: 20px;
+  width: 18px;
+  cursor: pointer;
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .google-apple-container .google-apple-title:before {
+    left: 70%;
+  }
+  .google-apple-container .google-apple-title:after {
+    right: 70%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .google-apple-container .google-apple-title:before {
+    left: 71%;
+  }
+  .google-apple-container .google-apple-title:after {
+    right: 71%;
+  }
+}

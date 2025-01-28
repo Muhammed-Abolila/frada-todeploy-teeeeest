@@ -1,0 +1,61 @@
+.faq-section .accordion {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  .faq-section .accordion-item{
+    border: none;
+    direction: rtl;
+  }
+  .faq-section .accordion-item .accordion-header{
+    border-top: .2px solid #e0e0e0;
+    border-bottom: .2px solid #e0e0e0;
+  }
+  .faq-section .accordion-item .accordion-header button {
+    padding: 10px;
+    color: #000;
+    background: #fff;
+    box-shadow: none;
+    font-weight: 400;
+    font-size: .9875rem;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  .faq-section .accordion-item .accordion-header button::after {
+    content: "+";
+    background-image: none;
+    margin-right: auto;
+    margin-left: 0px;
+    font-size: 25px;
+    height: auto;
+    width: auto;
+  }
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(135deg) !important;
+  }
+  .faq-section .accordion-item .accordion-body {
+    padding: 10px;
+  }
+  .faq-section .accordion-item .accordion-body h4{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top:20px
+  }
+  .faq-section .accordion-item .accordion-body div:first-child h4{
+    margin-top:5px;
+  }
+  .faq-section .accordion-item .accordion-body>div>p{
+    padding-right: 8px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .faq-section .accordion-item .accordion-body ul,
+  .faq-section .accordion-item .accordion-body ol {
+    line-height: 30px;
+    padding: 0 25px;
+    font-size: 12px;
+  }
+  .faq-section .accordion-item .accordion-body a{
+    color:unset;
+  }

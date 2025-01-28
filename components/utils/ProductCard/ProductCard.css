@@ -1,0 +1,21 @@
+.add-cart-btn {
+    background-color: var(--blackColor);
+    color:var(--whiteColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 3px;
+    padding: 3px 8px;
+    width: auto;
+  }
+  .add-cart-btn .add-cart {
+    font-size: 12px;
+    text-wrap: nowrap;
+    max-width: 0px;
+    overflow: hidden;
+    transition: max-width 0.3s ease-in-out;
+  }
+  .add-cart-btn:hover .add-cart {
+    max-width: 100px;
+  }

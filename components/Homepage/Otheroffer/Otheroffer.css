@@ -1,0 +1,207 @@
+.otheroffer{
+  padding:10px 0px;
+}
+.otheroffer .product-cart-container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap:wrap
+}
+.otheroffer .product-cart-container .product-card{
+width:49%
+}
+ .otheroffer-product-card {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.otheroffer-product-card .product-card-img {
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+}
+.otheroffer-product-card .product-card-img img {
+  width:fit-content;
+  height: fit-content;
+}
+.otheroffer-product-card .product-card-img .change-image{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.otheroffer-product-card .product-card-img .change-image .right,
+.otheroffer-product-card .product-card-img .change-image .left{
+  width:50%;
+  height:100%
+}
+.otheroffer-product-card .product-card-caption {
+  text-align: end;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom:20px;
+  border:1px solid rgba(0,0,0,.1);
+  border-top:none
+}
+.otheroffer-product-card .product-card-caption h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #000;
+}
+.otheroffer-product-card .product-card-caption .price-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  opacity: 0.8;
+  color: #000;
+  font-size: 18px;
+}
+.otheroffer-product-card .product-card-caption .price-container .price-after-disc,
+.otheroffer-product-card .product-card-caption .price-container .price-before-disc {
+  display: flex;
+  gap: 4px;
+}
+.otheroffer-product-card .product-card-caption .price-container .price-before-disc {
+  position: relative;
+}
+.otheroffer-product-card .product-card-caption .price-container .price-before-disc:after {
+  content: "";
+  position: absolute;
+  top: 49%;
+  rotate: 169deg;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #000;
+}
+.otheroffer-product-card .wish-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 33px;
+  height: 33px;
+  padding: 7px 5px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.otheroffer-product-card .wish-icon img {
+  width: 20px;
+  height: 21px;
+}
+
+.otheroffer .ads-container {
+  position: sticky;
+  top:0;
+  bottom:0;
+  background-image: url('../../../public/Images/new/8.jpg');
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:100vh;
+  object-fit: cover;
+}
+.otheroffer .ads-container  .layer {
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.4;
+}
+.otheroffer .ads-container .ads-caption {
+  position: absolute;
+  left:0;
+  right: 0;
+  bottom: 35px;
+}
+.otheroffer .ads-container .ads-caption .content {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
+.otheroffer .ads-container .ads-caption .content h4,
+.otheroffer .ads-container .ads-caption .content h5 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 100;
+}
+.otheroffer .ads-container .ads-caption .content h5 {
+  font-weight: 500;
+}
+.otheroffer .ads-container .ads-caption .content button {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  font-size: 17px;
+  padding: 8px 45px;
+  margin-top: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.otheroffer .ads-container .ads-caption .content button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+}
+.otheroffer .otheroffer-slider{
+  display:  none
+}
+@media screen and (max-width:1550px){
+  .otheroffer .otheroffer-left .row .col-md-6 .product-card .product-card-img{
+    height:80%;
+}
+}
+@media screen and (max-width:1050px){
+  .otheroffer-product-card .product-card-caption h3 {
+    font-size: 16px;
+  }
+  .otheroffer-product-card .product-card-caption .price-container {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:991px){
+  .otheroffer{
+overflow: hidden;
+  }
+  .otheroffer .otheroffer-left{
+    display: none
+  } 
+  .otheroffer .otheroffer-slider{
+    display: block
+  }
+  .otheroffer .otheroffer-slider .HomeProducts{
+    padding-bottom: 0px;
+  }
+  .otheroffer .ads-container {
+    position: relative;
+    height:75vh;
+    background-image: url('../../../public/Images/new/8.1.jpg');
+  }
+}
+@media screen and (max-width:600px){
+  .otheroffer .ads-container {
+    height:65vh;
+  }
+}
+@media screen and (max-width:450px){
+  .otheroffer .ads-container {
+    height:55vh;
+  }
+}
+@media screen and (max-width:350px){
+  .otheroffer .ads-container {
+    height:45vh;
+  }
+}

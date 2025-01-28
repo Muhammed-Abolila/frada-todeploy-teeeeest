@@ -1,0 +1,156 @@
+/* Payment */
+.cart-page .payment-methods-container .cart-payment-methods .telr-container,
+.cart-page .payment-methods-container .cart-payment-methods .applePay-container,
+.cart-page .payment-methods-container .cart-payment-methods .tabby-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  font-size: 20px;
+}
+.cart-page
+  .payment-methods-container
+  .cart-payment-methods
+  .telr-container
+  label,
+.cart-page
+  .payment-methods-container
+  .cart-payment-methods
+  .applePay-container
+  label,
+.cart-page
+  .payment-methods-container
+  .cart-payment-methods
+  .tabby-container
+  label {
+  margin-right: 5px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.cart-page
+  .payment-methods-container
+  .cart-payment-methods
+  .telr-container
+  label
+  .payment-methods-telr-logos
+  img,
+.cart-page
+  .payment-methods-container
+  .cart-payment-methods
+  .applePay-container
+  label
+  .payment-method-apple-logo
+  img,
+.cart-page
+  .payment-methods-container
+  .cart-payment-methods
+  .tabby-container
+  label
+  .payment-method-tabby-logo
+  img {
+  width: 65px;
+  height: 45px;
+
+}
+.cart-page
+  .payment-methods-container
+  .cart-payment-methods
+  .tabby-card-container {
+  display: flex !important ;
+  justify-content: end;
+  align-items: center;
+  margin-top: 5px;
+}
+.cart-page
+  .payment-methods-container
+  .cart-payment-methods
+  .tabby-card-container
+  .tabby-card {
+  background-color: #f6f6f6;
+  width: 330px;
+  height: 300px;
+  padding: 15px 15px;
+  border-radius: 5px;
+}
+.cart-page
+  .payment-methods-container
+  .cart-payment-methods
+  .tabby-container
+  label
+  .payment-method-tabby-logo {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.cart-page
+  .payment-methods-container
+  .cart-payment-methods
+  .tabby-container
+  label
+  .payment-method-tabby-logo
+  .tabby-text {
+  font-size: 15px;
+  font-weight: 400;
+}
+.cart-page
+  .payment-methods-container
+  .cart-payment-methods
+  .tabby-card-container
+  .tabby-card
+  .styles__tabby-card--d5b39 {
+  height: 200px !important;
+}
+.cart-page
+  .payment-methods-container
+  .cart-payment-methods
+  .tabby-card-container
+  .tabby-card
+  .styles__subtitle--ec424 {
+  margin-bottom: 15px !important;
+  color: #000 !important;
+}
+.cart-page .payment-methods-container .cart-payment-methods .tabby-regected {
+  font-size: 12px;
+  font-weight: 500;
+  color: red;
+}
+.cart-page .payment-methods-container .confirm {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.cart-page .payment-methods-container .confirm span {
+  padding: 0px 5px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 15px;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+@media screen and (max-width: 350px) {
+  .cart-page .cart-content .right .coupon .input-group .btn {
+    font-size: 12px;
+    padding: 9px 5px;
+  }
+  .cart-page
+    .payment-methods-container
+    .cart-payment-methods
+    .tabby-container
+    label
+    .payment-method-tabby-logo
+    .tabby-text {
+    font-size: 9px;
+    font-weight: 900;
+  }
+  .cart-page
+    .payment-methods-container
+    .cart-payment-methods
+    .tabby-card-container
+    .tabby-card
+    .styles__tabbyCard--aa75b {
+    min-width: 264px !important;
+  }
+}

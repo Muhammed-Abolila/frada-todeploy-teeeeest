@@ -1,0 +1,72 @@
+.delete-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999999;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.delete-container .delete-content {
+  background-color: #fff;
+  border-radius: 5px;
+  width: fit-content;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 20px 30px;
+}
+.delete-container .delete-content h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.delete-container .delete-content .content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.delete-container .delete-content .content .title {
+  font-weight: 700;
+  font-size: 18px;
+  direction: rtl;
+}
+.delete-container .delete-content .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+.delete-container .delete-content .btns button {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  padding: 4px 20px;
+  border-radius: 5px;
+}
+.delete-container .delete-content .btns button:hover {
+  background-color: #fff;
+  color: #000;
+}
+@media screen and (max-width:450px){
+  .delete-container .delete-content {
+    padding: 20px 25px;
+  }
+  .delete-container .delete-content .content {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .delete-container .delete-content .content .title {
+    font-weight: 700;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,113 @@
+.trademark-concept-section {
+  margin: 45px 0px;
+  position: relative;
+}
+.trademark-concept-section .trademark-content {
+  background-color: #000;
+  color: #fff;
+  width: 65%;
+  margin-left: auto;
+  padding: 50px 0px;
+}
+.trademark-concept-section .trademark-content .trademark-content-top,
+.trademark-concept-section .trademark-content .trademark-content-bottom {
+  width: 65%;
+  margin: auto;
+}
+.trademark-concept-section .trademark-content p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: justify;
+  text-align-last: end;
+  line-height: 40px;
+  width: 86%;
+  margin: auto;
+  margin-top: 17px;
+  margin-bottom: 35px !important;
+}
+.trademark-concept-section .trademark-content .image-container {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: 55%;
+  left: 5%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.trademark-concept-section .trademark-content .image-container img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .trademark-concept-section .trademark-content {
+    width: 100%;
+  }
+  .trademark-concept-section {
+    height: 150vh;
+  }
+  .trademark-concept-section .trademark-content {
+    height: 84%;
+  }
+  .trademark-concept-section .trademark-content .image-container {
+    top: 72%;
+    right: 35%;
+    left: 35%;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .trademark-concept-section {
+    height: 165vh;
+  }
+  .trademark-concept-section .trademark-content {
+    height: 88%;
+  }
+  .trademark-concept-section .trademark-content .image-container {
+    top: 74%;
+  }
+}
+@media screen and (max-width: 830px) {
+  .trademark-concept-section {
+    height: 185vh;
+  }
+  .trademark-concept-section .trademark-content {
+    height: 88%;
+  }
+  .trademark-concept-section .trademark-content .image-container {
+    top: 79%;
+    left: 28%;
+    right: 28%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .trademark-concept-section {
+    height: 200vh;
+  }
+  .trademark-concept-section .trademark-content {
+    height: 95%;
+  }
+  .trademark-concept-section .trademark-content .image-container {
+    top: 83%;
+  }
+}
+@media screen and (max-width: 465px) {
+  .trademark-concept-section {
+    height: 225vh;
+  }
+}
+@media screen and (max-width: 405px) {
+  .trademark-concept-section {
+    height: 250vh;
+  }
+  .trademark-concept-section .trademark-content .image-container {
+    top: 83%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .trademark-concept-section {
+    height: 275vh;
+  }
+  .trademark-concept-section .trademark-content .image-container {
+    top: 85%;
+  }
+}

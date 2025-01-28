@@ -1,0 +1,72 @@
+.navbar-top-content {
+    background-color:  var(--mainColor);
+    align-items: center;
+    padding: 5px 0px;
+    color: var(--whiteColor);
+    
+    text-align: center;
+    z-index: 16;
+  }
+  .navbar-top-content .phone-number {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    font-size: 14px !important;
+  }
+  .navbar-top-content .phone-number svg {
+    width: 14px;
+  }
+  .navbar-top-content .offer .content {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--whiteColor);
+  }
+  .navbar-top-content .envelop {
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-size: 14px !important;
+    font-weight: 300;
+  }
+  .navbar-top-content .envelop svg {
+    width: 14px;
+  }
+  .navbar-top-content .envelop:hover,
+  .navbar-top-content .phone-number:hover {
+    opacity: 0.5;
+  }
+  .navbar-top-content .social-links-container {
+    margin-right: 15px;
+  }
+  .navbar-top-content .social-links-container ul {
+    justify-content: end;
+    gap: 10px;
+  }
+  .navbar-top-content .social-links-container ul li a {
+    color: var(--whiteColor);
+    transition: opacity 0.3s ease-in-out;
+  }
+  .navbar-top-content .social-links-container ul li a:hover {
+    opacity: 0.5;
+  }
+  @media screen and (max-width: 1200px) {
+    .navbar-top-content .envelop,
+    .navbar-top-content .phone-number {
+      font-size: 13px !important;
+    }
+  }
+  @media screen and (max-width:800px){
+    .navbar-top-content .phone-number,.navbar-top-content .social-links-container{
+      display: none;
+    }
+  }

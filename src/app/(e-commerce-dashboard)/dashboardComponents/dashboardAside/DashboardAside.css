@@ -1,0 +1,70 @@
+.drawer {
+
+  z-index: 1000000 !important;
+}
+.drawer svg {
+  fill: #ababab;
+  width: 27px !important;
+  height: 27px !important;
+}
+
+.drawer .fill svg {
+  fill: white !important;
+}
+.drawer a {
+  transition: 0.3s;
+  text-wrap: nowrap;
+  height: 50px;
+}
+.drawer .icon {
+  fill: #d27a51 !important;
+  color: white !important;
+}
+.drawer .closed a,
+.drawer .closed a span {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.opend {
+  opacity: 1;
+}
+.closed {
+  opacity: 0;
+}
+.closed-drawer {
+  width: 56px !important;
+  transition: 0.1s width ease-in-out;
+}
+.opened-drawer {
+  width: 323px !important;
+  transition: 0.2s width ease-in-out;
+}
+.children {
+  width: calc(100% - 56px);
+}
+@media only screen and (max-width: 400px) {
+  .aside-arrow {
+    display: flex;
+    width: 100%;
+  }
+  .closed-drawer {
+    width: 45px !important;
+  }
+  .drawer svg.drawer:not(:first-child) {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .drawer a {
+    height: 35px !important;
+  }
+  .children {
+    width: calc(100% - 45px);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .drawer {
+    height: 100vh !important;
+  }
+}

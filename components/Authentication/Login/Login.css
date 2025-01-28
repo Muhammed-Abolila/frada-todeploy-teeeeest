@@ -1,0 +1,47 @@
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+.login-section .login {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(246, 246, 246, 1) 45%,
+    rgba(246, 246, 246, 1) 55%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  width: 400px;
+  border: 0.0625rem solid #e0e0e0;
+  text-align: center;
+  padding: 35px 20px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  font-size: 12px;
+  position:relative
+}
+.login-section .login .msg{
+position:absolute;
+top:5px;
+left:0;
+right:0;
+ }
+.login-section .login .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.login-section .login .form .forgot-password-link {
+  width: 88%;
+  margin-top: -12px;
+  text-align: end;
+}
+@media screen and (max-width: 450px) {
+  .login-section .login {
+    width: 300px;
+  }
+}

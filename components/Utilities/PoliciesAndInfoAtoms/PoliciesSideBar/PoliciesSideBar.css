@@ -1,0 +1,88 @@
+.policies-sidebar {
+  width: 24%;
+  text-align: start;
+  direction: rtl;
+}
+.policies-sidebar .top .caption {
+  padding: 45px 25px;
+  border-bottom: 0.0625rem solid #e0e0e0;
+  margin-bottom: 10px;
+  min-height: 193px;
+}
+.policies-sidebar .top .caption h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.policies-sidebar .top .caption p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.policies-sidebar ul.links {
+  list-style: none;
+  padding: 0;
+}
+.policies-sidebar ul.links li {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 25px;
+}
+.policies-sidebar ul.links li.active {
+  background-color: #000;
+  color: #fff;
+}
+.policies-sidebar ul.links li a {
+  text-decoration: none;
+  color: unset;
+}
+@media screen and (max-width: 991px) {
+  .policies-sidebar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 2;
+    padding:10px 0px;
+  }
+  .policies-sidebar .top {
+    display: none;
+  }
+  .policies-sidebar ul.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .policies-sidebar ul.links li {
+    font-size: 13px;
+    padding: 8px 20px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .policies-sidebar {
+    overflow-x: auto;
+  }
+  /* Firefox */
+  .policies-sidebar{
+    scrollbar-width: thin;
+    scrollbar-color: #000 #ffffff;
+  }
+  /* Chrome, Edge, and Safari */
+  .policies-sidebar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .policies-sidebar::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+  .policies-sidebar::-webkit-scrollbar-thumb {
+    background-color: #f6f6f6;
+    border-radius: 10px;
+  }
+  .policies-sidebar::-webkit-scrollbar-thumb:hover {
+    background: #000;
+  }
+  .policies-sidebar ul.links {
+    width: 700px;
+  }
+}

@@ -1,0 +1,18 @@
+.input-dashboard {
+    position: relative;
+    height:30px
+  }
+  .input-dashboard .icon-notice {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 17px;
+    color: #b00020;
+  }
+  .input-dashboard .error-msg {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    color: #b00020;
+  }

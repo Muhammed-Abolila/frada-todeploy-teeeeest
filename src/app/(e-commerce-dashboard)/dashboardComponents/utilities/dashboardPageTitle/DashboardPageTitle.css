@@ -1,0 +1,31 @@
+.heading {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+  padding-inline: 40px;
+  border-top: 1px dotted rgb(210, 122, 81);
+  border-bottom: 1px dotted rgb(210, 122, 81);
+  padding-block: 10px;
+  margin-block: 30px;
+}
+.heading::after {
+  content: "";
+  width: 6px;
+  background-color: rgb(210, 122, 81);
+  height: 115%;
+  position: absolute;
+  top: -7.5%;
+  right: 0px;
+  border-radius: 3px;
+}
+.heading::before {
+  content: "";
+  width: 6px;
+  background-color: rgb(210, 122, 81);
+  height: 115%;
+  position: absolute;
+  top: -7.5%;
+  left: 0px;
+  border-radius: 3px;
+}
+

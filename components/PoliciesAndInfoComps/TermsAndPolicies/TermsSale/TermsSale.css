@@ -1,0 +1,41 @@
+.terms-sale-section {
+    direction: rtl;
+}
+
+.terms-sale-section>div {
+    margin-top: 20px
+}
+
+.terms-sale-section h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.terms-sale-section h5 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.terms-sale-section p {
+    line-height: 30px;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.terms-sale-section a {
+    color: unset
+}
+
+.terms-sale-section ol,
+.terms-sale-section ul {
+    line-height: 30px;
+    padding: 0 25px;
+    font-size: 16px;
+}
+
+.terms-sale-section p span {
+    margin-left: 3px
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127" height="129" viewBox="0 0 127 129">
+  <defs>
+    <filter id="Rectangle_147987" x="0" y="0" width="127" height="129" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_67899" data-name="Group 67899" transform="translate(-1209 -341)">
+    <g transform="matrix(1, 0, 0, 1, 1209, 341)" filter="url(#Rectangle_147987)">
+      <g id="Rectangle_147987-2" data-name="Rectangle 147987" transform="translate(9 6)" fill="#332c32" stroke="#d17a52" stroke-width="1">
+        <rect width="109" height="111" rx="8" stroke="none"/>
+        <rect x="0.5" y="0.5" width="108" height="110" rx="7.5" fill="none"/>
+      </g>
+    </g>
+    <text id="_" data-name="+" transform="translate(1275 435)" fill="#de7d39" font-size="44" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="-12.32" y="0">+</tspan></text>
+    <text id="أضـــف_وسيلة_دفع" data-name="أضـــف
+وسيلة دفع" transform="translate(1273 379)" fill="#de7d39" font-size="15" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="-22.155" y="0">أضـــف</tspan><tspan y="0"></tspan><tspan x="-35.302" y="18">وسيلة دفع</tspan></text>
+  </g>
+</svg>

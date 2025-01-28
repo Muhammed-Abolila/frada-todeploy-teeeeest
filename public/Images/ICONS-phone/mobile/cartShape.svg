@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430" height="62" viewBox="0 0 430 62">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Rectangle_148025" data-name="Rectangle 148025" d="M10,0H420a10,10,0,0,1,10,10V62a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" fill="#f6f6f6"/>
+    </clipPath>
+  </defs>
+  <g id="Land_SHAPE" data-name="Land SHAPE" clip-path="url(#clip-path)">
+    <path id="Subtraction_13" data-name="Subtraction 13" d="M850,62H0V0H332.578c.61.028,6.032.4,8.639,4.945V3.791a30.6,30.6,0,0,0,3.089,9.433,31.052,31.052,0,0,0,6,8.022A31.067,31.067,0,0,0,372,30a31.065,31.065,0,0,0,21.694-8.753,30.659,30.659,0,0,0,9.05-17.213v.919A9.877,9.877,0,0,1,408,.684,11.515,11.515,0,0,1,411.187,0H850V62h0Z" transform="translate(-210)" fill="#f6f6f6"/>
+  </g>
+</svg>

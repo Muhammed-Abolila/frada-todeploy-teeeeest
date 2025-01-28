@@ -1,0 +1,56 @@
+/* Start Steps */
+.cart-page .cart-content .right .steps {
+    direction: rtl;
+  }
+  .cart-page .cart-content .right .steps .progress_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .cart-page .cart-content .right .steps .progress_container::before,
+  .cart-page .cart-content .right .steps .progress_container .progress {
+    position: absolute;
+    top: 23%;
+    right: 15px;
+    height: 4px;
+    z-index: 1;
+  }
+  .cart-page .cart-content .right .steps .progress_container::before {
+    content: "";
+    width: 91.5%;
+    background-color: #ddd;
+  }
+  .cart-page .cart-content .right .steps .progress_container:last-child {
+    margin-left: 2px;
+  }
+  .cart-page .cart-content .right .steps .progress_container .progress {
+    background-color: #000;
+    transition: width 1s ease-in-out;
+  }
+  .cart-page .cart-content .right .steps .progress_container .circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart-page .cart-content .right .steps .progress_container .circle span {
+    background-color: #fff;
+    border: 3px solid #ddd;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    z-index: 2;
+    text-align: center;
+  }
+  .cart-page .cart-content .right .steps .progress_container .circle p {
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .cart-page .cart-content .right .steps .progress_container .active span {
+    border: 3px solid #000;
+    transition: all ease-in-out;
+    transition-delay: 1s;
+  }
+  /* End Steps */

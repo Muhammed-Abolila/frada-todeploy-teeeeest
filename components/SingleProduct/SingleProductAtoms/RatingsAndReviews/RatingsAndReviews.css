@@ -1,0 +1,262 @@
+.ratings-reviews-container {
+  text-align: center;
+  padding: 10px 0px;
+  margin-top:20px
+}
+.ratings-reviews-container .top h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.ratings-reviews-container .ratings-reviews .single-rate {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+  margin: 15px 0px;
+}
+.ratings-reviews-container .ratings-reviews .single-rate .user-data {
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+.ratings-reviews-container .ratings-reviews .single-rate .user-data .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ratings-reviews-container .ratings-reviews .single-rate .user-data .logo p {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ratings-reviews-container .ratings-reviews .single-rate .user-data .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  gap: 5px;
+}
+.ratings-reviews-container
+  .ratings-reviews
+  .single-rate
+  .user-data
+  .info
+  .name {
+  font-size: 16px;
+  margin: 0;
+}
+.ratings-reviews-container
+  .ratings-reviews
+  .single-rate
+  .user-data
+  .info
+  .date {
+  font-size: 11px;
+}
+.ratings-reviews-container
+  .ratings-reviews
+  .single-rate
+  .user-data
+  .info
+  .rate {
+  margin-top: -7px;
+}
+.ratings-reviews-container .ratings-reviews .single-rate .review-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  position: relative;
+}
+.ratings-reviews-container
+  .ratings-reviews
+  .single-rate
+  .review-container
+  .review {
+  min-height: 80px;
+  width: 85%;
+  text-align: end;
+}
+.ratings-reviews-container
+  .ratings-reviews
+  .single-rate
+  .review
+  .user-review
+  p {
+  padding: 10px 5px;
+  font-size: 15px;
+}
+.ratings-reviews-container
+  .ratings-reviews
+  .single-rate
+  .review-container
+  .review
+  .admin-replay {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: start;
+  background-color: #f6f6f6;
+  padding-top: 8px;
+}
+.ratings-reviews-container
+  .ratings-reviews
+  .single-rate
+  .review-container
+  .review
+  .admin-replay
+  .logo {
+  height: 30px;
+  margin: 4px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ratings-reviews-container
+  .ratings-reviews
+  .single-rate
+  .review-container
+  .review
+  .admin-replay
+  .logo
+  svg {
+  padding: 6px;
+  border-radius: 50%;
+  background-color: #000;
+  height: 30px;
+  width: 30px;
+}
+.ratings-reviews-container
+  .ratings-reviews
+  .single-rate
+  .review-container
+  .review
+  .admin-replay
+  .replay {
+  font-size: 15px;
+  padding: 12px 0px;
+}
+.ratings-reviews-container
+  .ratings-reviews
+  .single-rate
+  .review-container
+  .icons {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 10%;
+    font-size: 16px;
+}
+.ratings-reviews-container
+  .ratings-reviews
+  .single-rate
+  .review-container
+  .icons
+  .delete {
+  color: #f00;
+  cursor: pointer;
+}
+.ratings-reviews-container
+  .ratings-reviews
+  .single-rate
+  .review-container
+  .icons
+  .edit {
+  color: #0072bc;
+  cursor: pointer;
+}
+.ratings-reviews-container .rate-btn {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 20px;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+.ratings-reviews-container .rate-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+.user-data-sm{
+  display: none !important;
+}
+.ratings-reviews-container .no-product{
+  height: 10vh;
+  font-size: 20px;
+  font-weight: 400;
+}
+@media screen and (max-width: 930px) {
+  .ratings-reviews-container .ratings-reviews .single-rate .user-data {
+    width: 26%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .user-data-sm{
+    display: flex !important;
+  }
+  .user-data-lg{
+    display: none !important
+  }
+  .ratings-reviews-container .ratings-reviews .single-rate .review-container{
+    width:80%
+  }
+  .ratings-reviews-container .ratings-reviews .single-rate {
+    justify-content: center;
+  }
+  .ratings-reviews-container .ratings-reviews .single-rate .user-data {
+    justify-content: space-between;
+    width: 100%;
+    margin-top:15px
+  }
+  .ratings-reviews-container
+    .ratings-reviews
+    .single-rate
+    .user-data
+    .user-data-right {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+  }
+  .ratings-reviews-container
+  .ratings-reviews
+  .single-rate
+  .review-container
+  .review {
+  width: 100%;
+  margin-bottom: 35px;
+}
+.ratings-reviews-container .ratings-reviews .single-rate .review-container .icons{
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  top: 85%;
+  left: 6%;
+}
+}
+@media screen and (max-width: 600px) {
+  .ratings-reviews-container .ratings-reviews .single-rate .review-container {
+    width: 95%;
+  }
+  .ratings-reviews-container .ratings-reviews .single-rate .user-data .info .name{
+    font-size: 13px;
+  }
+}

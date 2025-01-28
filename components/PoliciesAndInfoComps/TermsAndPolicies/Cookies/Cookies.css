@@ -1,0 +1,47 @@
+.cookies-section {
+    direction: rtl;
+}
+
+.cookies-section>div {
+    margin-top: 20px
+}
+
+.cookies-section h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cookies-section h5 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.cookies-section h6 {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 20px;
+}
+.cookies-section p {
+    line-height: 30px;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.cookies-section a {
+    color: unset
+}
+
+.cookies-section ol,
+.cookies-section ul {
+    line-height: 30px;
+    padding: 0 25px;
+    font-size: 16px;
+}
+
+.cookies-section p span {
+    margin-left: 3px
+}

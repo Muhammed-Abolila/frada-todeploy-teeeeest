@@ -1,0 +1,241 @@
+.shipping {
+  margin-top: 15px;
+}
+.shipping .address .radio-input {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.shipping .address .address-info-container .top {
+  padding-right: 20px;
+}
+.shipping .address .address-info-container .top h5 {
+  margin: 0;
+  font-size: 15px;
+}
+.shipping .address .address-info-container .address-info .eddit-address,
+.shipping .address .address-info-container form .eddit-address,
+.shipping .address .address-info-container .address-info .no-data p {
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  text-align: start;
+  width: fit-content;
+}
+.shipping .address .address-info-container .address-info .eddit-address::before,
+.shipping .address .address-info-container form .eddit-address::before,
+.shipping .address .address-info-container .address-info .no-data p::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+}
+
+.shipping .address .address-info-container .address-info {
+  background-color: #f6f6f6;
+  border: 1px solid #e0e0e0;
+  padding: 5px 10px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.shipping .address .address-info-container .address-info .info {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: center;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 7px;
+}
+.shipping .address .address-info-container .address-info .address-info-footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.shipping
+  .address
+  .address-info-container
+  .address-info
+  .address-info-footer
+  button {
+  padding: 2px 10px;
+  border-radius: 5px;
+  line-height: 22px;
+  font-size: 12px;
+}
+.shipping
+  .address
+  .address-info-container
+  .address-info
+  .address-info-footer
+  select {
+  font-size: 12px;
+  padding: 0px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  text-align: center;
+}
+.shipping
+  .address
+  .address-info-container
+  .address-info
+  .address-info-footer
+  select:focus,
+.shipping textarea:focus {
+  outline: none;
+}
+.shipping .address .address-info-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 5px 10px;
+  background-color: #f6f6f6;
+}
+.shipping .address .address-info-container .add-friend form .btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shipping
+  .address
+  .address-info-container
+  .add-friend
+  form
+  .btn-container
+  .btn {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+  padding: 2px 10px;
+  border-radius: 5px;
+  line-height: 22px;
+  font-size: 12px;
+  transition: all 0.3s ease-in-out;
+}
+.shipping
+  .address
+  .address-info-container
+  .add-friend
+  form
+  .btn-container
+  .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+.shipping .address .address-info-container form .input-container input,
+.shipping .address .address-info-container form .input-container select {
+  font-size: 13px;
+  width: 100%;
+  direction: rtl;
+  border: 0.0625rem solid #e0e0e0 ;
+  background-color: #fff;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.shipping .address .address-info-container form .input-container label {
+  font-size: 13px;
+  padding-right: 3px;
+  padding-bottom: 4px;
+}
+
+.shipping .address .address-info-container form .input-container .icon-notice {
+  left: 14px;
+}
+.shipping .address .address-info-container form .city-container .icon-notice {
+  top: 57%;
+}
+.shipping .address .address-info-container form .city-container .error-msg {
+  top: 100%;
+  width: 92%;
+}
+
+.shipping .address .address-info-container form .input-container .error-msg {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.shipping .address .address-info-container form .input-container input {
+  padding: 7px;
+}
+
+.shipping .address .address-info-container form .input-container select:focus {
+  outline: none;
+}
+.shipping .address .address-info-container form .btn-container {
+  width: 100%;
+}
+.shipping .address .address-info-container .address-info .info:first-child {
+  margin-top: 0px;
+}
+
+.shipping .address .address-info-container .address-info .alert-warnning {
+  background-color: #ffcc00;
+  text-align: start;
+  font-size: 12px;
+  width: fit-content;
+  padding: 2px 4px;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.shipping .address .address-info-container .address-info .no-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0px;
+  gap: 4px;
+  height: 160px;
+}
+
+.shipping .address .friend-address-inputs {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.shipping textarea {
+  height: 149px;
+  width: 100%;
+  min-height: 130px;
+  max-height: 130px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: end;
+  padding: 5px;
+  font-size: 13px;
+  border: 1px solid #e0e0e0;
+}
+
+.shipping .btn-container {
+  text-align: center;
+  margin-top: 15px;
+}
+.shipping .btn-container button {
+  padding: 2px 10px;
+  border-radius: 5px;
+  line-height: 22px;
+  font-size: 12px;
+}
+
+.shipping > .btn-container {
+  margin-bottom: 10px;
+}

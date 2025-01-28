@@ -1,0 +1,13 @@
+.search-comp .top{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding: 10px;
+}
+.search-comp .top h6 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+}

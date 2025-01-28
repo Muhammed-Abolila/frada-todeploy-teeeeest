@@ -1,0 +1,24 @@
+.social-links{
+    text-align: center;
+    margin: auto;
+    color:#000
+}
+.social-links ul{
+    list-style: none;
+}
+.social-links p{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom:10px;
+    display: contents;
+}
+.social-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.social-links ul li a{
+    color:#000;
+    text-decoration: none;
+}

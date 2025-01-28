@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="992" height="62" viewBox="0 0 992 62">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Rectangle_17638" data-name="Rectangle 17638" d="M10,0H982a10,10,0,0,1,10,10V62a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(-295.083 712)" fill="#f6f6f6"/>
+    </clipPath>
+  </defs>
+  <g id="Land_SHAPE" data-name="Land SHAPE" transform="translate(295.083 -712)" clip-path="url(#clip-path)">
+    <path id="Subtraction_5" data-name="Subtraction 5" d="M1938.072,62H78.2V0H959.995a11.574,11.574,0,0,1,3.157.673,9.509,9.509,0,0,1,5.185,4.274v-1a33.722,33.722,0,0,0,2.6,8.935,33.925,33.925,0,0,0,7.335,10.485,33.886,33.886,0,0,0,10.694,7.051A33.8,33.8,0,0,0,1001.981,33,33.79,33.79,0,0,0,1015,30.417a33.9,33.9,0,0,0,10.695-7.051,33.926,33.926,0,0,0,7.335-10.485,33.757,33.757,0,0,0,2.556-8.654v.726a9.593,9.593,0,0,1,5.072-4.269A10.761,10.761,0,0,1,1043.724,0h-7.757l902.1,0V62h0Z" transform="translate(-727.993 712)" fill="#f6f6f6"/>
+  </g>
+</svg>

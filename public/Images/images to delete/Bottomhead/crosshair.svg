@@ -1,0 +1,20 @@
+<svg id="crosshair" xmlns="http://www.w3.org/2000/svg" width="25.281" height="25.281" viewBox="0 0 25.281 25.281">
+  <g id="Group_37194" data-name="Group 37194" transform="translate(7.374 7.374)">
+    <path id="Path_29618" data-name="Path 29618" d="M12.267,17.534a5.267,5.267,0,1,1,5.267-5.267A5.273,5.273,0,0,1,12.267,17.534Zm0-9.48a4.213,4.213,0,1,0,4.213,4.213A4.218,4.218,0,0,0,12.267,8.053Z" transform="translate(-7 -7)" fill="#d17a52"/>
+  </g>
+  <g id="Group_37195" data-name="Group 37195" transform="translate(2.107 2.107)">
+    <path id="Path_29619" data-name="Path 29619" d="M12.534,23.067A10.534,10.534,0,1,1,23.067,12.534,10.546,10.546,0,0,1,12.534,23.067Zm0-20.014a9.48,9.48,0,1,0,9.48,9.48A9.491,9.491,0,0,0,12.534,3.053Z" transform="translate(-2 -2)" fill="#d17a52"/>
+  </g>
+  <g id="Group_37196" data-name="Group 37196" transform="translate(12.114)">
+    <path id="Path_29620" data-name="Path 29620" d="M12.027,5.267A.527.527,0,0,1,11.5,4.74V.527a.527.527,0,1,1,1.053,0V4.74A.527.527,0,0,1,12.027,5.267Z" transform="translate(-11.5)" fill="#d17a52"/>
+  </g>
+  <g id="Group_37197" data-name="Group 37197" transform="translate(12.114 20.014)">
+    <path id="Path_29621" data-name="Path 29621" d="M12.027,24.267a.527.527,0,0,1-.527-.527V19.527a.527.527,0,1,1,1.053,0V23.74A.527.527,0,0,1,12.027,24.267Z" transform="translate(-11.5 -19)" fill="#d17a52"/>
+  </g>
+  <g id="Group_37198" data-name="Group 37198" transform="translate(0 12.114)">
+    <path id="Path_29622" data-name="Path 29622" d="M4.74,12.553H.527a.527.527,0,1,1,0-1.053H4.74a.527.527,0,1,1,0,1.053Z" transform="translate(0 -11.5)" fill="#d17a52"/>
+  </g>
+  <g id="Group_37199" data-name="Group 37199" transform="translate(20.014 12.114)">
+    <path id="Path_29623" data-name="Path 29623" d="M23.74,12.553H19.527a.527.527,0,1,1,0-1.053H23.74a.527.527,0,1,1,0,1.053Z" transform="translate(-19 -11.5)" fill="#d17a52"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+.discount-comp {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  padding: 4px 5px;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.discount-comp .disc-number{
+  margin-right:4px
+}
+@media screen and (max-width:1400px){
+  .discount-comp {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width:1050px){
+  .discount-comp {
+    font-size: 11px;
+  }
+}

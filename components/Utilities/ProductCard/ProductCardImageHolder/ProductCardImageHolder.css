@@ -1,0 +1,26 @@
+.product-card-img .slider-container .slick-slider .slick-dots {
+    bottom: 10px;
+    left: -6px;
+    text-align: end;
+    display: flex !important;
+    justify-content: end;
+    align-items: end;
+    flex-direction: row-reverse;
+    gap: 3px;
+}
+.product-card-img .slider-container .slick-slider .slick-dots li button{
+    display: none;
+}
+.product-card-img .slider-container .slick-slider .slick-dots li{
+    background-color: #000 ;
+    opacity:.6;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin:0
+}
+.product-card-img .slider-container .slick-slider .slick-dots li.slick-active{
+    width: 30px;
+    border-radius: 9px;
+    opacity:1
+}

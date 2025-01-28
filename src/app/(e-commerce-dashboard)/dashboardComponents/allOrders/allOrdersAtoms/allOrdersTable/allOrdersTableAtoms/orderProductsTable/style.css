@@ -1,0 +1,8 @@
+.order-table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.order-table tbody tr img {
+  height: 48px !important;
+  width: 48px !important;
+  border-radius: 5px;
+}

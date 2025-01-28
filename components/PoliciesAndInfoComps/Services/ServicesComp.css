@@ -1,0 +1,24 @@
+.services {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: start;
+  position:relative
+}
+.services .services-content {
+  width: 76%;
+}
+.services .services-content .services-child{
+  width: 75%;
+  margin: 70px auto;
+ }
+@media screen and (max-width:991px){
+  .services .services-content {
+    width: 100%;
+    margin-top:35px;
+  } 
+  .services .services-content .services-child{
+    width: 95%;
+    margin: 10px auto 30px auto;
+  }
+}

@@ -1,0 +1,126 @@
+.images-holder {
+    display: flex;
+    flex-direction: row;
+    gap:10px
+}
+.subimage-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:15px
+}
+.subimage-holder img{
+    transition:transform .3s ease-in-out ;
+}
+.subimage-holder img:hover{
+    cursor: pointer;
+    border:1px solid #000;
+    transform: scale(1.1);
+}
+
+
+.slider-single .carousel-caption {
+    position: unset !important;
+    padding:0 !important
+}
+
+.slider-single .carousel img {
+    border-radius: 0 !important;
+}
+
+.slider-single .carousel img {
+    width: 350px !important;
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.slider-single {
+    display: flex;
+    margin: auto;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+.slider-single-mo {
+    display: none;
+}
+
+.slider-single .carousel-inner {
+    width: 100%;
+}
+
+.slider-single .carousel-indicators [data-bs-target] {
+    margin-bottom: 10%;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #332C32;
+    opacity: 1 !important;
+    box-sizing: content-box !important;
+    display: none;
+}
+
+.slider-single .carousel-indicators .active {
+
+    background-color: #000;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev {
+    display: none !important;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: none !important;
+}
+
+.carousel img {
+    border-radius: 0 !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    display: none !important;
+}
+
+@media(max-width:1100px) {
+    .images-holder {
+        justify-content: center;
+        width: 100%;
+    }
+    .mainimage-holder {
+        width: 70%;
+    }
+    .mainimage-holder img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media(max-width:750px) {
+    .slider-single-mo .carousel img {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:620px){
+    .images-holder {
+        display: none !important;
+    }
+    .slider-single-mo {
+        display: block;
+    }
+}
+@media screen and (max-width:450px){
+    .slider-single-mo .carousel img {
+        height: 100%;
+    }
+    .slider-single .carousel-inner .carousel-item {
+        width:100%;
+        aspect-ratio: 1/1;
+    }
+}

@@ -1,0 +1,155 @@
+.friend-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.friend-profile-container .friend-profile-content .top {
+  display: flex;
+  justify-content: flex-end;
+}
+.friend-profile-container .friend-profile-content .top button {
+  border: 1px solid #000;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  padding: 5px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+.friend-profile-container .friend-profile-content .top button:hover {
+  color: #000;
+  background-color: #fff;
+}
+.friend-profile-container .friend-profile-content .top h2 {
+  direction: rtl;
+}
+.friend-profile-container .friend-profile-content .form-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px 12px;
+  padding: 30px 10px;
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+}
+.friend-profile-container
+  .friend-profile-content
+  .form-container
+  .customer-info {
+  width: 49%;
+}
+.friend-profile-container
+  .friend-profile-content
+  .form-container
+  .customer-info
+  label {
+  font-weight: 600;
+  text-align: end;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.friend-profile-container
+  .friend-profile-content
+  .form-container
+  .customer-info
+  input , select {
+  outline: none;
+  /* height: 40px; */
+  direction: rtl;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #05060538;
+  padding-block: 5px;
+}
+
+select {
+  padding-bottom: 2.3px !important;
+}
+@media screen and (max-width: 1007px) {
+  .friend-profile-container
+    .friend-profile-content
+    .form-container
+    .customer-info {
+    width: 90%;
+  }
+
+  .wraper-form-container {
+    flex-direction: column;
+  }
+
+  .wraper-form-container .add-delete-friend-btns {
+    display: flex !important;
+    justify-content: space-evenly !important;
+    flex-direction: row !important;
+    order: 2;
+    padding-block: 20px;
+    background-position: left center !important;
+    background-size: 10% 140% !important;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 630px) {
+  .friend-profile-container .friend-profile-content .top h2 {
+    font-size: 13px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 576px) {
+  .friend-profile-container .friend-profile-content {
+    width: 95%;
+  }
+  .friend-profile-container .friend-profile-content .top h2 {
+    text-align: center;
+  }
+}
+
+/*  Mo morshedy updates */
+
+.wraper-form-container {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.wraper-form-container .add-delete-friend-btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: #171717;
+  background-image: url(/assets/images/friendsInfo/background.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-inline: 20px;
+  gap: 20px;
+}
+
+.wraper-form-container .add-delete-friend-btns button,
+.wraper-form-container .add-delete-friend-btns .button {
+  background-color: white;
+  padding: 6px 10px;
+  width: 170px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+
+.add-new-friend {
+  max-width: 207px;
+  background: #d27a51 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  color: white;
+  border-radius: 4px;
+}
+

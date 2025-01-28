@@ -1,0 +1,47 @@
+.input-container {
+  width: 100%;
+  position: relative;
+}
+.input-container input {
+  width: 90%;
+  padding: 7px;
+  border-radius: 5px;
+  direction: rtl;
+  border: 0.0625rem solid #e0e0e0;
+}
+.input-container input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.input-container .icon-notice {
+  position: absolute;
+  top: 13%;
+  left: 23px;
+  font-size: 17px;
+  color: #b00020;
+}
+.input-container .error-msg {
+  color: #b00020;
+  margin-top: 8px;
+}
+.input-container span {
+  position: absolute;
+  top: 32%;
+  left: 27px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.input-container a {
+  color: #0d6efd !important;
+  text-decoration: none;
+  text-align: end;
+}
+@media screen and (max-width: 450px) {
+  .input-container .icon-notice {
+    top: 12px;
+    left: 9px;
+  }
+  .input-container input {
+    width: 100%;
+  }
+}

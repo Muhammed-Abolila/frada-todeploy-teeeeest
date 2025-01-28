@@ -1,0 +1,26 @@
+.terms-site-section {
+    direction: rtl;
+}
+
+.terms-site-section>div {
+    margin-top: 20px
+}
+
+.terms-site-section h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.terms-site-section h5 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.terms-site-section p {
+    line-height: 30px;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}

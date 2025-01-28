@@ -1,0 +1,298 @@
+.filter {
+  top: 50px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  overflow-y: auto;
+  background-color: #fff;
+  scrollbar-color: rgba(17, 17, 17, 0.7) transparent;
+  scrollbar-width: thin;
+  position: relative;
+}
+.filter-position {
+  max-width: 320px;
+  position: sticky;
+}
+.filter .filter-content {
+  width: 90%;
+  margin-bottom: 70px;
+}
+.filter .close-icon {
+  position: absolute;
+  top: 4px;
+  left: 20px;
+  font-size: 35px;
+  display: none;
+}
+.filter .filter-content .offers-container,
+.filter .filter-content .sort-container,
+.filter .filter-content .discounts-container,
+.filter .filter-content .tradmarks-container,
+.filter .filter-content .sizes-container,
+.filter .filter-content .colors-container,
+.filter .filter-content .price-container {
+  text-align: end;
+  padding: 14px 10px;
+  border-bottom: 2px solid gray;
+}
+.filter .filter-content .sort-container {
+  display: none;
+}
+.filter .filter-content .price-container {
+  border: none;
+}
+.filter .filter-content .offers-container h6,
+.filter .filter-content .sort-container h6,
+.filter .filter-content .discounts-container h6,
+.filter .filter-content .tradmarks-container h6,
+.filter .filter-content .sizes-container h6,
+.filter .filter-content .colors-container h6,
+.filter .filter-content .price-container h6 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.filter-and-products-container
+  .filter
+  .filter-content
+  .offers-container
+  .offers
+  .offer,
+.filter-and-products-container
+  .filter
+  .filter-content
+  .sort-container
+  .sort-items
+  .single-sort-item,
+.filter-and-products-container
+  .filter
+  .filter-content
+  .tradmarks-container
+  .tradmarks
+  .tradmark {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 8px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.filter .filter-content .offers-container .offer,
+.filter-and-products-container
+  .filter
+  .filter-content
+  .sort-container
+  .single-sort-item,
+input,
+.filter-and-products-container
+  .filter
+  .filter-content
+  .tradmarks-container
+  .tradmarks
+  .tradmark
+  input {
+  margin-top: 7px;
+}
+.filter-and-products-container
+  .filter
+  .filter-content
+  .offers-container
+  .offer
+  label,
+.filter-and-products-container
+  .filter
+  .filter-content
+  .sort-container
+  .single-sort-item
+  label,
+.filter-and-products-container
+  .filter
+  .filter-content
+  .tradmarks-container
+  .tradmarks
+  .tradmark
+  label {
+  font-size: 15px;
+  font-weight: 600;
+}
+.filter-and-products-container
+  .filter
+  .filter-content
+  .discounts-container
+  select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+.filter .filter-content .sizes-container .sizes,
+.filter-and-products-container
+  .filter
+  .filter-content
+  .colors-container
+  .colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 9px;
+  direction: rtl;
+  cursor: pointer;
+}
+.filter .filter-content .sizes-container .sizes {
+  justify-content: space-between;
+}
+.filter-and-products-container
+  .filter
+  .filter-content
+  .sizes-container
+  .sizes
+  .size {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  transition: all 0.3s ease-in-out;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 4px 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.filter-and-products-container
+  .filter
+  .filter-content
+  .sizes-container
+  .sizes
+  .size:hover {
+  background-color: #000;
+  color: #fff;
+}
+.filter-and-products-container
+  .filter
+  .filter-content
+  .colors-container
+  .colors
+  .color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.filter-and-products-container
+  .filter
+  .filter-content
+  .colors-container
+  .colors
+  .color
+  span {
+  font-weight: 700;
+  font-size: 15px;
+}
+/* duble slider */
+.range-slider {
+  background-color: #d3d3d3 !important;
+  height: 2px !important;
+}
+.range-slider__range {
+  /* CSS for range */
+  background-color: black !important;
+  height: 2px !important;
+}
+.range-slider__thumb {
+  /* CSS for thumbs */
+  width: 15px !important;
+  height: 15px !important;
+  background-color: black !important;
+}
+.range-slider__thumb[data-active] {
+  background-color: black !important;
+}
+.price-container .price-range{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.price-container .price-range div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+.apply-delete-btns {
+  background-color: #fff;
+  border-top:1px solid #000;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 15px 0px;
+  z-index: 99999999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.apply-delete-btns button {
+  border: 1px solid #000;
+  width: 120px;
+  font-size: 16px;
+  padding: 8px 0px;
+  transition:all .3s ease-in-out
+}
+.apply-delete-btns button.apply-btn{
+  background-color: #000;
+  color: #fff;
+}
+.apply-delete-btns button.delete-btn {
+  background-color: #fff;
+  color: #000;
+}
+@media screen and (max-width: 992px) {
+  .filter-sort-bar {
+    position: static;
+    
+  }
+  .filter .filter-content .sort-container {
+    display: block;
+  }
+  .filter-position {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh !important;
+    z-index: 99999999;
+  }
+  .filter .close-icon {
+    display: block;
+  }
+  .filter-and-products-container
+    .filter
+    .filter-content
+    .sizes-container
+    .sizes {
+    justify-content: flex-start;
+  }
+  .filter-and-products-container
+    .filter
+    .filter-content
+    .sizes-container
+    .sizes
+    .size {
+    width: 24%;
+    text-align: center;
+  }
+  .apply-delete-btns {
+    display: flex;
+  }
+}

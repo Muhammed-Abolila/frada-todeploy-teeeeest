@@ -1,0 +1,27 @@
+.pagnition-product{
+    padding:10px 0px;
+}
+.pagnition-product .page-link.active,
+.active > .page-link,
+.pagnition-product .page-item:last-child .page-link,
+.pagnition-product .page-item:first-child .page-link{
+  background: #000 !important;
+  color: #fff !important;
+  border-radius: 3px !important;
+  border:1px solid #000
+}
+
+ .pagnition-product a {
+  color: #000 !important;
+}
+.pagnition-product .page-item .page-link:hover{
+    background: #000 !important;
+  color: #fff !important;
+}
+.pagnition-product .page-item .page-link:focus{
+box-shadow: none;
+outline: none
+}
+.pagnition-product .page-item:not(:first-child) .page-link {
+  border: 1px solid rgba(0,0,0,.4) !important;
+} 

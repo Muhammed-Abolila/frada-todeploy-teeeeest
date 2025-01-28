@@ -1,0 +1,60 @@
+.email-popup-container{
+    background-color:rgba(0,0,0,.9);
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999999;
+}
+.email-popup-container .email-popup{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 20px 15px;
+
+}
+.email-popup-container .email-popup .email-popup-top{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 17px 0px;
+}
+.email-popup-container .email-popup .input-container input{
+    width:100%
+}
+.email-popup-container .email-popup .input-container .icon-notice {
+    top: 11px;
+    left: 8px;
+}
+.email-popup-container .email-popup .email-popup-footer{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+margin-top:20px;
+}
+.email-popup-container .email-popup .email-popup-footer button{
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    padding: 4px 20px;
+    border-radius: 5px;
+}
+.email-popup-container .email-popup .email-popup-footer button:hover{
+    background-color: #fff;
+    color: #000;  
+}
+@media screen and (max-width:400px){
+    .email-popup-container .email-popup{
+        width:95%
+    }
+}

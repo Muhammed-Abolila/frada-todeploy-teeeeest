@@ -1,0 +1,16 @@
+.shipping-info-section {
+  direction: rtl;
+}
+.shipping-info-section>div{
+  margin-top:20px
+}
+.shipping-info-section h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.shipping-info-section p{
+    line-height: 30px;
+    padding: 0 5px;
+    font-size: 18px;
+}
+

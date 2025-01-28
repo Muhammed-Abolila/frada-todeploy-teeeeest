@@ -1,0 +1,91 @@
+.contact-us-content .contact-us-caption {
+  padding: 20px 0px;
+}
+.contact-us-content p {
+  text-align: end;
+  margin-top: 10px;
+  line-height: 30px;
+  padding: 0 10px;
+  font-size: 18px;
+}
+.contact-us-content p.tel {
+  background-color: #000;
+  padding: 15px;
+  text-align: center;
+}
+.contact-us-content p a {
+  text-decoration: none;
+  color: #fff;
+}
+.contact-us-content form {
+  text-align: end;
+  margin-top: 30px;
+}
+.contact-us-content form h4 {
+  padding-bottom: 15px;
+  border-bottom: 0.0625rem solid #e0e0e0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-us-content form .input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin-top: 20px;
+}
+.contact-us-content form .input-container label {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 6px;
+}
+.contact-us-content form .input-container label .name {
+  font-size: 16px;
+  font-weight: 500;
+}
+.contact-us-content form .input-container label .star {
+  font-size: 15px;
+  color: red;
+  font-weight: 600;
+}
+.contact-us-content form .input-container input,
+.contact-us-content form .input-container textarea {
+  padding: 6px;
+  direction: rtl;
+  border: 0.0625rem solid #e0e0e0;
+}
+.contact-us-content form .input-container textarea {
+  min-height: 130px;
+  max-height: 130px;
+}
+.contact-us-content form .input-container input:hover,
+.contact-us-content form .input-container textarea:hover,
+.contact-us-content form .input-container input:focus,
+.contact-us-content form .input-container textarea:focus {
+  outline: none;
+}
+.contact-us-content form .input-container .input-alert {
+  color: #b00020;
+  text-align: center;
+  margin-top: 4px;
+  font-size: 13px;
+}
+.contact-us-content form button {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 25px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-us-content form button:hover {
+  background-color: #fff;
+  color: #000;
+}
+

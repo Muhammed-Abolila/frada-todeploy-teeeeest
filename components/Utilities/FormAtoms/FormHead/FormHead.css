@@ -1,0 +1,17 @@
+.form-head .logo {
+    background-color: #000;
+    width: fit-content;
+    margin: auto;
+    padding: 15px;
+    border-radius: 50%;
+  }
+.form-head .logo svg {
+    width: 30px;
+    height: 30px;
+  }
+.form-head .login-title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }

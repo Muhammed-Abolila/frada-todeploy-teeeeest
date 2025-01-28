@@ -1,0 +1,109 @@
+.card-product {
+  position: relative;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-align: right;
+  border: none !important;
+  border-radius: none;
+  background-color: transparent;
+  transition: box-shadow 0.3s ease-in-out;
+  overflow: hidden;
+  width: 100%;
+}
+.card-product:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.card-product .card-img-top {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  aspect-ratio: 13/12;
+}
+.card-product:hover .card-img-top {
+  transform: scale(1.05);
+}
+.card-product .card-body {
+  min-height: 125px;
+}
+.card-product .card-title {
+  font-size: 1.1rem;
+}
+.card-product .mobile-product-caption {
+  display: none;
+}
+.card-product .wish-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 33px;
+  height: 33px;
+  padding: 7px 5px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease-in-out;
+}
+.card-product .wish-icon img {
+  width: 20px !important;
+  height: 21px !important;
+}
+.card-product .wish-icon:hover {
+  background-color: #000;
+}
+.card-product .price-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: end;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.9rem;
+}
+.card-product .price-container .price-after {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 4px;
+}
+.card-product .price-container .price-before {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 4px;
+  text-decoration: none;
+  position: relative;
+  opacity: 0.4;
+}
+.card-product .price-container .price-before:after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #000;
+  top: 50%;
+  transform: rotate(-14deg);
+}
+@media screen and (max-width: 1150px) {
+  .card-product .card-title {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .card-product .wish-icon {
+    right: 7px;
+    top: 6px;
+    width: 35px;
+    height: 35px;
+  }
+  .card-product .wish-icon img {
+    width: 22px !important;
+    height: 22px !important;
+  }
+}
+@media (max-width: 650px) {
+  .card-product .product-caption {
+    display: none;
+  }
+  .card-product .mobile-product-caption {
+    display: block;
+  }
+}

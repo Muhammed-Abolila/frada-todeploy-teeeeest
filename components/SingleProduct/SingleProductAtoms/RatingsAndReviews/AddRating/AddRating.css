@@ -1,0 +1,75 @@
+.add-rate-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999999;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.add-rate-container .add-rate {
+  background-color: #fff;
+  padding: 10px 5px;
+  width:500px
+}
+.add-rate .rate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-rate .review .review-text-container {
+  position: relative;
+}
+.add-rate .review .review-text-container .review-counter {
+  position: absolute;
+  bottom: 5px;
+  left: 22px;
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.5;
+}
+.add-rate .review .review-text-container textarea {
+  direction: rtl;
+  width: 95%;
+  min-height: 100px;
+  max-height: 100px;
+  font-size: 15px;
+  padding: 5px;
+}
+.add-rate .review .review-text-container textarea:focus {
+  box-shadow: none;
+  outline: none;
+}
+.add-rate .review .review-text-container textarea::placeholder {
+  text-align: start;
+}
+.add-rate .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.add-rate .btns button {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 20px;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+.add-rate .btns button:hover {
+  color: #000;
+  background-color: #fff;
+}
+@media screen  and (max-width:550px){
+  .add-rate-container .add-rate {
+    width:90%;
+    border-radius: 5px;
+    padding: 10px 0px;
+  } 
+}

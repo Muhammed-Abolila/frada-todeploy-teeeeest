@@ -1,0 +1,26 @@
+.about-us-titles {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-us-titles h3 {
+    font-size: 44px;
+    margin: 0;
+    width: 90%;
+    border: 1px solid #E4E4E4;
+    margin: 20px 0px;
+    padding: 30px 0px;
+  }
+  @media screen and (max-width:715px){
+    .about-us-titles h3 {
+      font-size: 28px;
+      padding: 18px 0px;
+    }
+  }
+  @media screen and (max-width:494px){
+    .about-us-titles h3 {
+      font-size: 20px;
+    }
+  }
