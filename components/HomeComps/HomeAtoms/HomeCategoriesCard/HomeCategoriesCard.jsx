@@ -1,4 +1,4 @@
-import imgTest from "../../../../public/images/test.png";
+import imgTest from "../../../../public/Images/test.png";
 export default function HomeCategoriesCard({item}) {
 
 const item_copy={
@@ -7,7 +7,6 @@ const item_copy={
       p2: "...تالقك يعني لنا الكثير",
     }
 
-console.log('image test => ' , imgTest);
 
 const baseImageUrl=process.env.NEXT_PUBLIC_BANNER_IMG_SRC
 
