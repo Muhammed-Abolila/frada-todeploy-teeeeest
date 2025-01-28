@@ -3,7 +3,7 @@
 import "./DashboardInput.css";
 
 export const DashboardInput = ({ register, errors,
-  isReadOnly , type , Name, }) => {
+  isReadOnly , type , Name}) => {
   return (
     <div className="input-dashboard">
       <input

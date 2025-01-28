@@ -20,7 +20,7 @@ const cairo = Cairo({
 });
 
 export default function RootLayout({ children }) {
-  const pathName = usePathname()
+  const pathName = usePathname();
   return (
     <html lang="ar">
       <head>
@@ -103,9 +103,7 @@ export default function RootLayout({ children }) {
           <WhatsApp />
 
           {!pathName?.includes("dashboard") ? <Footer /> : null}
-          {!pathName?.includes("dashboard") ? (
-            <FixedFooter />
-          ) : null}
+          {!pathName?.includes("dashboard") ? <FixedFooter /> : null}
         </Provider>
         <ToastContainer />
       </body>

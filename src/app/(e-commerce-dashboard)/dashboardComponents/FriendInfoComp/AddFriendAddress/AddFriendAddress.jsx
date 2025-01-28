@@ -3,11 +3,12 @@ import { ToastContainer } from "react-toastify";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 // import { freindDataSchema } from "@/app/schemas";
-import { DashboardInput } from "../../utilities/dashboardInput/DashboardInput";
+
 import SelectCity from "../friendInfoCompAtoms/FetchAndUpdateForms/FetchAndUpdateFormsAtoms/SelectCity/SelectCity";
 import { freindDataSchema } from "@/app/(e-commerce-dashboard)/schemas";
 import { addFriend } from "@/app/(e-commerce-dashboard)/ServerActionsMethods/UserInfoMethods";
 import { getCookie } from "cookies-next";
+import { DashboardInput } from "../../utilities/DashboardInput/DashboardInput";
 
 const token = getCookie("access_token");
 
