@@ -1,6 +1,6 @@
-import refundImage from "../../../public/images/refund.svg"
-import shippingImage from "../../../public/images/shipping.svg"
-import supportImage from "../../../public/images/support.svg"
+import refundImage from "../../../public/Images/refund.svg"
+import shippingImage from "../../../public/Images/shipping.svg"
+import supportImage from "../../../public/Images/support.svg"
 export default function Service() {
   let data = [
     {
