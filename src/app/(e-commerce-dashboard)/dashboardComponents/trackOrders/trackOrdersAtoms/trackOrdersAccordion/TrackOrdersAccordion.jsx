@@ -8,7 +8,7 @@ import DashboardArrow from "../../../utilities/dashboardArrow/dashboardArrow";
 import DashboardButton from "../../../utilities/dashboardButton/DashboardButton";
 import { cancelOrder } from "../../apis";
 import ArrowHook from "../../../customHooks/ArrowHook";
-import TrackOrderCompletePercentage from "../trackOrdersCompletePrcentage/TrackOrderCompletePercentage";
+// import TrackOrderCompletePercentage from "../trackOrdersCompletePrcentage/TrackOrderCompletePercentage";
 const TrackOrdersAccordion = ({ order, user }) => {
   let [height, toggleArrow] = ArrowHook();
   {
@@ -37,9 +37,9 @@ const TrackOrdersAccordion = ({ order, user }) => {
       </div>
       <div className="p-2 rounded mt-3 relative border-[1px] border-solid border-[#E6E6E6]">
         <div className="flex items-center gap-5 justify-end">
-          <TrackOrderCompletePercentage
+          {/* <TrackOrderCompletePercentage
             percentage={order.tracking.progressPercentage}
-          />
+          /> */}
 
           <OrderTimeLine tracking={order.tracking} order={order} />
         </div>
